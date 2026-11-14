@@ -1,3 +1,4 @@
-class PodcastScript(BaseModel):
-    title: str
-    script: str
+podcast = PodcastScript(
+    title="Python Dictionaries",
+    script="Welcome back! Today we explore dictionaries..."
+)
